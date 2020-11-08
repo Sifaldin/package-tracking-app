@@ -4,8 +4,11 @@ import React, { useState, useEffect } from "react";
 
 
 //Styling
+
 import "../../styles/home.css";
-// import "../../styles/";
+
+//components
+
 import SearchByID from "../login/SearchByID";
 import SearchByPhone from "../login/SearchByPhone";
 import Parcel from '../shared/Parcel';
@@ -37,7 +40,7 @@ export default function Home() {
 
     const items = await data.json();
     setParcels(items);
-   // setResults(items);
+    // setResults(items);
   };
 
   return (

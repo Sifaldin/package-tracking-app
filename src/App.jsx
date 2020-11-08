@@ -1,16 +1,12 @@
 //React Core
 import React from "react";
-
-//Styles
-// import "./styles/app.scss";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 //Components
 import Home from "./components/Pages/Home";
-import Results from "./components/Pages/Results";
 import information from "./information.json";
 
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
 export default function App() {
@@ -27,17 +23,15 @@ export default function App() {
 
       <div className="App">
 
-          <Switch>
+        <Switch>
 
-            <Route exact path="/">
-              
-                <Home />
-            
-            </Route>
+          <Route exact path="/">
 
-            <Route path="/results/:query" render={({ match }) => (<Results match={match} information={information} />)} />
+            <Home />
 
-          </Switch>
+          </Route>
+
+        </Switch>
 
       </div>
     </Router>

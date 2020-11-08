@@ -3,7 +3,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 //Styling
-import "../../styles/results.css";
 import "../../styles/login.css";
 import pkgImgC from "../../assets/pkgImgC.svg"
 

@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 //Styling
-// import "../../styles/style.scss";
 import loginImgC from "../../assets/loginImgC.svg";
 
 
@@ -50,4 +49,3 @@ export default function SearchByPhone(props) {
 }
 
 
-//
