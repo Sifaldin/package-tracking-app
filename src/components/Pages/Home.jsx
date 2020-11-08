@@ -9,9 +9,9 @@ import "../../styles/home.css";
 
 //components
 
-import SearchByID from "../login/SearchByID";
-import SearchByPhone from "../login/SearchByPhone";
-import Parcel from '../shared/Parcel';
+import SearchByID from "../SearchMethods/SearchByID";
+import SearchByPhone from "../SearchMethods/SearchByPhone";
+import Parcel from '../Shared/Parcel';
 
 function getParcelById(parcels, id) {
   console.log(parcels, id)

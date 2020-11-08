@@ -34,35 +34,8 @@ input :focus {
     }
 
 
-button {
-    
-        font-size: 21px;
-        padding: 5px 20px;
-        border: 0;
-        background-color: #3498db;
-        color: #fff;
-        border-radius: 3px;
-        transition: all 250ms ease-in-out;
-        cursor: pointer;
-        margin-bottom: 15px;
-        text-decoration: none;
-       
-      
-}
-
-button:hover {
-    
-        background-color: #19689c;
-    
-}
 
 
-
-
-button:focus {
-    
-        outline: none;
-}
 
 label {
     display: block;

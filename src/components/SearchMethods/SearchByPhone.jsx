@@ -35,14 +35,6 @@ export default function SearchByPhone(props) {
         </div>
 
       </div>
-
-      <div className="footer">
-        <Link to={"/results/" + query}>
-          <button type="button" className="btn">
-            View Package
-          </button>
-        </Link>
-      </div>
       
     </div>
   );

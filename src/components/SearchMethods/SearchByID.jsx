@@ -40,14 +40,6 @@ export default function SearchByID({ onSearch }) {
 
       </div>
 
-      <div className="footer">
-        <Link to={"/results/" + query}>
-          <button type="button" className="btn">
-            View Package
-        </button>
-        </Link>
-      </div>
-
     </div>
   );
 }

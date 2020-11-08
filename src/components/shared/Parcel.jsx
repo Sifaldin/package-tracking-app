@@ -47,11 +47,7 @@ export default function Parcel({ parcel }) {
             <p>notes: {notes}</p>
             <p>last updated: {last_updated} </p>
 
-            <button><Link className="btn" to="/">
-           
-           Home
-          </Link></button>
-            
+          
           
         
     </div>
