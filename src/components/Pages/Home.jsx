@@ -1,20 +1,16 @@
 //React Core
-
 import React, { useState, useEffect } from "react";
 
 
 //Styling
-
 import "../../styles/home.css";
 
 //components
-
 import SearchByID from "../SearchMethods/SearchByID";
 import SearchByPhone from "../SearchMethods/SearchByPhone";
 import Parcel from '../Shared/Parcel';
 
 function getParcelById(parcels, id) {
-  console.log(parcels, id)
   return parcels.filter(element => element.parcel_id === id);
 }
 
@@ -40,7 +36,6 @@ export default function Home() {
 
     const items = await data.json();
     setParcels(items);
-    // setResults(items);
   };
 
   return (

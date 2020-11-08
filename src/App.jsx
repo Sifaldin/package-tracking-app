@@ -4,19 +4,14 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 //Components
 import Home from "./components/Pages/Home";
-import information from "./information.json";
+
 
 
 
 
 export default function App() {
 
-  const endpoint = "https://my.api.mockaroo.com/orders.json?key=e49e6840";
-
-
   return (
-
-
 
     <Router>
 
@@ -37,9 +32,6 @@ export default function App() {
     </Router>
 
   );
-
-
-
 }
 
 

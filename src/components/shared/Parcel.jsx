@@ -4,9 +4,7 @@ import { Link } from "react-router-dom";
 
 //Styling
 import "../../styles/login.css";
-import pkgImgC from "../../assets/pkgImgC.svg"
-
-
+import pkgImgC from "../../assets/pkgImgC.svg";
 
 export default function Parcel({ parcel }) {
 
@@ -46,14 +44,8 @@ export default function Parcel({ parcel }) {
             <p>Location: {location_name}</p>
             <p>notes: {notes}</p>
             <p>last updated: {last_updated} </p>
-
-          
-          
-        
+           
     </div>
-
-
-
 
   )
 
