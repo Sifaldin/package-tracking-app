@@ -1,0 +1,28 @@
+.container {
+    
+    
+    margin: 10px;
+    
+    background-color: rgb(253, 240, 216);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-items: center;
+    box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.2);
+    border-radius: 4px;
+    position: relative; 
+    height: 100%;
+    
+    border-radius: 25px;
+}
+
+.form {
+   
+    margin-top: 2em;
+   
+    align-items: center;
+}
+
+
+
+   

@@ -1,0 +1,35 @@
+.result-page{
+
+display: grid;
+grid-template-columns: 1fr;
+justify-content: center;
+text-align: center;
+
+
+}
+
+.btn{
+    text-decoration: none;
+    color: aliceblue;
+} 
+
+
+@media (min-width: 550px) {
+    .result-page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+/* Desktop */
+
+@media (min-width: 750px) {
+    .result-page{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+}
