@@ -10,6 +10,9 @@ import SearchByID from "../SearchMethods/SearchByID";
 import SearchByPhone from "../SearchMethods/SearchByPhone";
 import Parcel from '../Shared/Parcel';
 
+
+//Search Functions
+
 function getParcelById(parcels, id) {
   return parcels.filter(element => element.parcel_id === id);
 }
@@ -17,8 +20,6 @@ function getParcelById(parcels, id) {
 function getParcelByPhone(parcels, num) {
   return parcels.filter(element => element.user_phone.startsWith(num));
 }
-
-
 
 export default function Home() {
 
@@ -29,8 +30,6 @@ export default function Home() {
     fetchItems();
   }, []);
 
-
-
   const fetchItems = async () => {
     const data = await fetch('https://my.api.mockaroo.com/orders.json?key=e49e6840');
 
@@ -39,10 +38,6 @@ export default function Home() {
   };
 
   return (
-
-
-
-
     <div className="homeContainer">
 
       <SearchByPhone onSearch={(phoneNumber) => {
@@ -58,7 +53,5 @@ export default function Home() {
       }
 
     </div>
-
-
   );
 }

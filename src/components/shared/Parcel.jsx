@@ -1,6 +1,5 @@
 //React Core
 import React from "react";
-import { Link } from "react-router-dom";
 
 //Styling
 import "../../styles/login.css";
